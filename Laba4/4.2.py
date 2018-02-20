@@ -1,0 +1,11 @@
+print('Введите количество красных шаров:')
+red = int(input())
+print('Введите количество синих шаров:')
+blue = int(input())
+
+Vred = red/(red+blue)
+print('Вероятность выпадания красных шаров:')
+print(Vred)
+Vblue = blue/(red+blue)
+print('Вероятность выпадания синих шаров:')
+print(Vblue)
