@@ -1,6 +1,13 @@
 import numpy as np
 import matplotlib.pyplot as plt
-
-t = np.arange(0., 5., 0.2)
-plt.plot(t, t, 'g--', t, t**2, 'bs', t, t**3, 'r^')
+import math
+x = np.linspace(-5,5,100)
+y =[]
+#y = np.linspace(-5,5,100)
+for i in range(len(x)):
+    y.append(abs(x[i]))
+fig, ax = plt.subplots()
+ax.plot(x,y,color="blue")
+plt.ylabel('y-axis')
+plt.xlabel('x-axis')
 plt.show()

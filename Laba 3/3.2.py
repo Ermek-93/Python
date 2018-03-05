@@ -7,14 +7,14 @@ def printM(a):
     for i in range(len(a)):
         print(a[i])
 
-#Функция сложения двух матриц
+#сложения двух матриц
 def slozhenie(a,b):
     for i in range(len(a)):
         for j in range(len(a)):
            a[i][j]+= b[i][j]
     return printM(a)
 
-print("Результат сложения двух матриц")
+print("Результат")
 slozhenie(m,n)
 
 

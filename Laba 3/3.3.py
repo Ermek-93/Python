@@ -8,7 +8,7 @@ def printM(a):
         print(a[i])
 
 
-#Функция транспонированной матрицы
+#транспонированная матрица
 def trans(a):
     for i in range(len(a)):
      for j in range(0,i):
