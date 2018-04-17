@@ -1,3 +1,5 @@
+#Дается массив и значение P.
+# Поставьте P в рандомное место в массиве.
 import numpy as np
 mass = np.arange(11)
 print(mass)
